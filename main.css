@@ -255,10 +255,13 @@ form {
     font-size: 12px;
   }
 
+  .body_section {
+    padding: 40px 0 40px;
+  }
+
   .how_it_works {
     font-size: 12px;
-    width: 280px;
-
+    width: 100%;
     color: #444;
   }
 
@@ -268,6 +271,11 @@ form {
 
   .contact_info {
     flex-direction: column;
+  }
+
+  .address,
+  .phone {
+    padding: 0 20px;
   }
 }
 
