@@ -225,12 +225,13 @@ form {
   }
 
   .logo {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .navbar,
   .login {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 700;
     padding: 5px 20px;
     flex-direction: column;
   }
@@ -241,14 +242,14 @@ form {
   }
 
   .intro {
-    font-size: 20px;
+    font-size: 28px;
     letter-spacing: 3px;
   }
 
   .slogan {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2px;
-    height: 60px;
+    height: 90px;
   }
 
   .email_capture {
@@ -266,7 +267,7 @@ form {
   }
 
   .section_title {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .contact_info {
@@ -276,6 +277,11 @@ form {
   .address,
   .phone {
     padding: 0 20px;
+  }
+
+  .address p:first-child,
+  .phone p:first-child {
+    font-weight: 700;
   }
 }
 
