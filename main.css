@@ -117,7 +117,9 @@ header {
   height: 100px;
 }
 
-._form {
+/* UnComment when add form  */
+
+/* ._form {
   width: 200px;
   height: 30px;
   margin: 10px auto;
@@ -143,12 +145,17 @@ form {
 
 ._form button {
   padding: 0 7px 0 0;
+} */
+
+.how_it_works {
+  background: white;
+  color: #222;
 }
 
 .body_section {
   width: 100%;
   font-size: 14px;
-  margin: 20px auto 40px;
+  padding: 80px 0 40px;
 }
 
 .body_section p {
@@ -159,8 +166,25 @@ form {
   margin: 0 0 20px;
 }
 
+.intro_body {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.how_it_works_grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.how_it_works_grid_item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .how_it_works_point {
   margin: 40px auto 5px;
+  width: 45%;
 }
 
 .how_it_works_body {
@@ -234,6 +258,8 @@ form {
   .how_it_works {
     font-size: 12px;
     width: 280px;
+
+    color: #444;
   }
 
   .section_title {
